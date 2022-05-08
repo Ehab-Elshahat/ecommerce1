@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css"
+      integrity="sha512-E+53kXnJyuZFSz75xSmTfCpUNj3gp9Bd80TeQQMTPJTVWDRHPOpEYczGwWtsZXvaiz27cqvhdH8U+g/NMYua3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Css Style  -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Start Header -->
+    <header id="header">
+      <!-- Start NavBar  -->
+      <a href="#" class="logo">
+        <img src="./img/logo.jpg" alt="logo">
+      </a>
+      <div class="show">
+        <i class="fa-solid fa-bars"></i>
+        <!-- <i class="fa-solid fa-xmark"></i> -->
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a class="active" href="cart.html">
+              <i class="fas fa-shopping-bag"></i>
+            </a>
+          </li>
+        </ul>
+        <!-- <i class="fa-brands fa-times"></i> -->
+      </nav>
+      <!-- End NavBar  -->
+    </header>
+    <!-- End Header  -->
+
+    <!-- Stert Banner -->
+    <section class="about-banner">
+      <h2>#cart</h2>
+      <p>Add Your Coupon code & SAVE upto 70%!</p>
+    </section>
+    <!-- End Banner -->
+
+    <!-- Start Cart -->
+    <section class="shoping-cart section-p1">
+      <table>
+        <thead>
+          <tr>
+            <th>REMOVE</th>
+            <th>IMAGE</th>
+            <th>PRODUCT</th>
+            <th>PRICE</th>
+            <th>QUANTITY</th>
+            <th>SUBTOTAL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <input type="checkbox" checked />
+            </td>
+            <td>
+              <img src="./img/product-1.png" />
+            </td>
+            <td>
+              <span>Cartoon Astronaut T-Shirts</span>
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+            <td>
+              <input type="number" name="" id="" placeholder="1">
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" checked />
+            </td>
+            <td>
+              <img src="./img/product-1.png" />
+            </td>
+            <td>
+              <span>Cartoon Astronaut T-Shirts</span>
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+            <td>
+              <input type="number" name="" id="" placeholder="1">
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" checked />
+            </td>
+            <td>
+              <img src="./img/product-1.png" />
+            </td>
+            <td>
+              <span>Cartoon Astronaut T-Shirts</span>
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+            <td>
+              <input type="number" name="" id="" placeholder="1">
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" checked />
+            </td>
+            <td>
+              <img src="./img/product-1.png" />
+            </td>
+            <td>
+              <span>Cartoon Astronaut T-Shirts</span>
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+            <td>
+              <input type="number" name="" id="" placeholder="1">
+            </td>
+            <td>
+              <span>$118.19</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!-- End Cart -->
+
+    <!-- Start Coupon & Totals -->
+    <section class="coupon-total section-p1">
+      <div class="coupon">
+        <h5>Apply Coupon</h5>
+        <form>
+          <input type="text" name="coupon" id="coupon" placeholder="Enter Your Coupon">
+          <input type="submit" value="Apply">
+        </form>
+      </div>
+      <div class="cart-total">
+        <h5>Cart Totals</h5>
+        <table border >
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>free</td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td>Total</td>
+              <td>$335</td>
+            </tr>
+          </tfoot>
+        </table>
+        <input class="checkout" type="submit" value="Proceed To Checkout">
+      </div>
+    </section>
+    <!-- End Coupon & Totals -->
+
+    <!-- Start Footer  -->
+    <footer class="section-p1">
+      <div class="footer-box">
+        <a href="#" class="logo">
+          <img src="./img/logo.jpg" alt="logo">
+        </a>
+        <h4>contact</h4>
+        <p>
+          <strong>Address: </strong>562 wellington rood Street 32 San Francisco
+        </p>
+        <p><strong>Phone: </strong>+012222 365 / (+91) 0123456789</p>
+        <p><strong>Address: </strong>10:00-18:00 Mon-Sat</p>
+        <h4 class="follow">Follow Us</h4>
+        <ul class="social-footer">
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h4>About</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Delivery Information</li>
+          <li>Privacy Policy</li>
+          <li>Tarims & Conditions</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h4>My Account</h4>
+        <ul>
+          <li>sign in</li>
+          <li>Viwe Cart</li>
+          <li>My Wishlist</li>
+          <li>Track My Order</li>
+          <li>Help</li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h4>Install App</h4>
+        <p>From App Store Or GooGle Play</p>
+        <div class="apps">
+          <img src="./img/app-store.png" alt="App store" />
+          <img src="./img/google-play.png" alt="google-play" />
+        </div>
+        <p>Secured Payment Geteways</p>
+        <ul class="payment">
+          <li><img src="./img/visa_icon.png" alt="visa_icon" /></li>
+          <li><img src="./img/mastercard-icon.png" alt="mastercard" /></li>
+          <li>
+            <img src="./img/mastercard_payment_icon.png" alt="mastercard" />
+          </li>
+          <li><img src="./img/cash_credit_icon.png" alt="mastercard" /></li>
+        </ul>
+      </div>
+    </footer>
+    <section class="copyright">&copy;2022 Made By Ehab Elshaht</section>
+    <!-- End Footer  -->
+
+    <!-- Start Scroll To top -->
+    <div class="scrolltop">
+      <i class="fa-solid fa-circle-chevron-up"></i>
+    </div>
+    <!-- End Scroll To top -->
+
+    <!-- Js File  -->
+    <script src="./js/code.js"></script>
+  </body>
+</html>
